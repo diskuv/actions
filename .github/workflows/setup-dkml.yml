@@ -22,7 +22,9 @@ env:
   PIN_PTIME: "0.8.6-msvcsupport"
   PIN_TIME_NOW: "v0.14.0"
 
-  DKML_VERSION: "1.0.0"
+  # Can't be 1.0.0 or later until https://github.com/ocaml/opam-repository/pull/21704 ocaml-option-32bit
+  # can come back in.
+  DKML_VERSION: "0.4.0"
 
 on:
   workflow_call:
