@@ -43,6 +43,13 @@ You will need three sections in your GitHub Actions `.yml` file to build your ex
 2. A "matrix build" workflow to build your OCaml native executables on each
 3. A "release" workflow to assemble all of your native executables into a single release
 
+You can follow the three sections on this page, or you can copy one of the examples:
+
+| Example                                                                                      | Who For                                                                                                                                         |
+| -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| [dkml-workflows-monorepo-example](https://github.com/diskuv/dkml-workflows-monorepo-example) | **Not ready for public use yet!**<br>You want to cross-compile ARM64 on Mac Intel.<br>You are building [Mirage unikernels](https://mirage.io/). |
+| [dkml-workflows-regular-example](https://github.com/diskuv/dkml-workflows-regular-example)   | Everybody else                                                                                                                                  |
+
 ### Job 1: Define the `setup-dkml` workflow
 
 Add the `setup-dkml` child workflow to your own GitHub Actions `.yml` file:
