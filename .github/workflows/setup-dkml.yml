@@ -893,7 +893,7 @@ jobs:
         with:
           path: .ci/sd4/g
           key:
-            ${{ inputs.cache-prefix }}_${{ runner.os }}-sd4-git
+            ${{ inputs.cache-prefix }}_${{ runner.os }}-sd4-git-${{ hashFiles('cachekey.github.inputs') }}
 
       # dkml-base-compiler
 
