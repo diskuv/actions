@@ -375,7 +375,7 @@ jobs:
         # will "succeed" but it never gets restored. So we will hash a
         # user-friendly file instead.
         run: |
-          cachebust=1
+          cachebust=2
           {
             echo $cachebust
             echo 'env.DEFAULT_DISKUV_OPAM_REPOSITORY_TAG=${{ env.DEFAULT_DISKUV_OPAM_REPOSITORY_TAG }}'
