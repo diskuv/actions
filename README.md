@@ -50,6 +50,9 @@ You can follow the three sections on this page, or you can copy one of the examp
 | [dkml-workflows-monorepo-example](https://github.com/diskuv/dkml-workflows-monorepo-example) | **Not ready for public use yet!**<br>You want to cross-compile ARM64 on Mac Intel.<br>You are building [Mirage unikernels](https://mirage.io/). |
 | [dkml-workflows-regular-example](https://github.com/diskuv/dkml-workflows-regular-example)   | Everybody else                                                                                                                                  |
 
+For news about Diskuv OCaml,
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/diskuv.svg?style=social&label=Follow%20%40diskuv)](https://twitter.com/diskuv) on Twitter.
+
 ### Job 1: Define the `setup-dkml` workflow
 
 Add the `setup-dkml` child workflow to your own GitHub Actions `.yml` file:
@@ -305,3 +308,12 @@ look at the output of setup-dkml.yml's step
 the `VCToolsRedistDir` environment variable. The `VCToolsRedistDir` environment
 variable will also be available to use as
 `opamrun exec -- sh -c 'echo $VCToolsRedistDir'`
+
+## Sponsor
+
+<a href="https://ocaml-sf.org">
+<img align="left" alt="OCSF logo" src="https://ocaml-sf.org/assets/ocsf_logo.svg"/>
+</a>
+Thanks to the <a href="https://ocaml-sf.org">OCaml Software Foundation</a>
+for economic support to the development of Diskuv OCaml.
+<p/>
